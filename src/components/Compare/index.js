@@ -10,7 +10,7 @@ const Compare = ({products}) =>
             <th />
             {products.map(product =>
               <th key={product.id}>
-                {product.name}
+                {product.name + "dummy teext"}
               </th>
             )}
           </tr>
